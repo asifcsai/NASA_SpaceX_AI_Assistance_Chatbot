@@ -1,0 +1,7 @@
+NASA-SpaceX/
+├── faiss_index/           # Your FAISS vector database
+├── chunked_docs.pkl       # Processed document chunks
+├── research_paper/        # Your JSON research papers
+├── streamlit_chatbot.py   # The main chatbot file
+├── requirements.txt       # Dependencies
+└── NASA_SpaceX.py        # Your original indexing script
