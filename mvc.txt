@@ -1,7 +1,16 @@
-NASA-SpaceX/
-├── faiss_index/           # Your FAISS vector database
-├── chunked_docs.pkl       # Processed document chunks
-├── research_paper/        # Your JSON research papers
-├── streamlit_chatbot.py   # The main chatbot file
-├── requirements.txt       # Dependencies
-└── NASA_SpaceX.py        # Your original indexing script
+nasa-spacex-rag-chatbot/
+├── 📄 README.md                                        # Project documentation
+├── 📄 requirements.txt                                 # Python dependencies
+├── 🐍 NASA_SpaceX_embedding_vector_generation.py      # Vector database creation script
+├── 🐍 NASA_SpaceX_chatbot.py                          # Main Streamlit RAG chatbot app
+├── 📁 research_paper/                                 # Your JSON research documents
+│   ├── 0001-mice-in-bion-m-1-space-mission.json     # Example research paper
+│   ├── 0002-spacex-dragon-mission-analysis.json      # Example research paper
+│   └── ...                                           # More research papers
+├── 📁 faiss_index/                                   # Generated FAISS vector database
+│   ├── index.faiss                                   # FAISS index file
+│   └── index.pkl                                     # FAISS metadata
+├── 📄 chunked_docs.pkl                                # Processed document chunks
+├── 📁 .streamlit/                                    # Streamlit configuration
+│   └── config.toml                                   # Streamlit settings
+└── 📄 .gitignore                                     # Git ignore file
